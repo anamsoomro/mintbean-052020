@@ -5,41 +5,32 @@ import { Chart } from "react-google-charts";
 function Values() {
   return (
     <div style={{display: "inline-block"}}>
-
       <Chart
-        width={'500px'}
-        height={'300px'}
+        width={'900px'}
+        height={'600px'}
         chartType="BubbleChart"
         loader={<div>Loading Chart</div>}
         data={[
-          ['ID', 'Life Expectancy', 'Fertility Rate', 'Region', 'Population'],
-          ['CAN', 80.66, 1.67, 'North America', 33739900],
-          ['DEU', 79.84, 1.36, 'Europe', 81902307],
-          ['DNK', 78.6, 1.84, 'Europe', 5523095],
-          ['EGY', 72.73, 2.78, 'Middle East', 79716203],
-          ['GBR', 80.05, 2, 'Europe', 61801570],
-          ['IRN', 72.49, 1.7, 'Middle East', 73137148],
-          ['IRQ', 68.09, 4.77, 'Middle East', 31090763],
-          ['ISR', 81.55, 2.96, 'Middle East', 7485600],
-          ['RUS', 68.6, 1.54, 'Europe', 141850000],
-          ['USA', 78.09, 2.05, 'North America', 307007000],
+          ['ID', 'professionally', 'personally', 'weight'],
+          [' ', 12, 12,  0],
+
+          ['growth', 10, 10,  10],
+          ['inclusion', 9, 6, 8],
+          ['authenticity', 8, 10,  10],
+          ['dialouge', 7, 7,  6],
+          ['diversity', 10, 1.7, 8],
+          ['fun', 5, 5, 5],
+          ['drama', 0, 0, 0.00001],
+
         ]}
         options={{
-          title:"none",
-          hAxis: { title: ' ' },
-          vAxis: { title: ' ' },
-          bubble: {
-            textStyle: {
-              fontSize: 12,
-              fontName: 'Times-Roman',
-              color: 'green',
-              bold: true,
-              italic: true,
-              auraColor: 'none',
-            },
-          },
+          title: ' ',
+          hAxis: { title: 'personally' },
+          vAxis: { title: 'professionally' },
+          bubble: { textStyle: { fontSize: 11 } },
+          colorAxis: {colors: ['#547881', 'e1e6eb']}
         }}
-        rootProps={{ 'data-testid': '3' }}
+        rootProps={{ 'data-testid': '1' }}
       />
 
 

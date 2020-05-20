@@ -33,10 +33,10 @@ function App() {
         <Food />
       </div>
 
-      {/* <div class="item">
+      <div class="item">
           <h2> things  I value</h2>
           <Values />
-      </div> */}
+      </div>
 
       <div class="item">
           <h2> places i've been</h2>
@@ -45,7 +45,7 @@ function App() {
       </div>
 
       <div class="item">
-        <h2><a href="www.anamsoomro.com"> wanna know more? </a> </h2>
+        <h1><a href="www.anamsoomro.com"> wanna know more? </a> </h1>
       </div>
 
     </div>
