@@ -45,7 +45,7 @@ function App() {
       </div>
 
       <div class="item">
-        <h1><a href="www.anamsoomro.com"> wanna know more? </a> </h1>
+        <h1><a href="https://anamsoomro.com/"> wanna know more? </a> </h1>
       </div>
 
     </div>
