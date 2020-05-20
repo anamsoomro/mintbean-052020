@@ -20,7 +20,7 @@ function WhoAmI() {
         [' ', null, 0, 0],
 
         ['designer', ' ', 0, 0],
-        ['full-stack dev', ' ', 0, 0],
+        ['full-stack developer', ' ', 0, 0],
         ['wanderer', ' ', 0, 0],
         ['builder', ' ', 0, 0],
         ['problem solver', ' ', 0, 0],
