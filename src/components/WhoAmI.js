@@ -31,7 +31,7 @@ function WhoAmI() {
         ['Brazil', 'designer', 11, 10],
         ['blah', 'coffee addict', 24, -15],
 
-        ['France', 'full-stack dev', 42, -11],
+        ['France', 'full-stack developer', 42, -11],
         ['China', 'wanderer', 12, 1],
         ['Egypt', 'problem solver', 21, 0],
         ['blah1', 'builder', 4, 1],
