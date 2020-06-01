@@ -13,7 +13,6 @@ function Values() {
         data={[
           ['ID', 'professionally', 'personally', 'weight'],
           [' ', 12, 12,  0],
-
           ['growth', 10, 10,  10],
           ['inclusion', 9, 6, 8],
           ['authenticity', 8, 10,  10],
