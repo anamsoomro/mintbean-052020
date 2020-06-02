@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       {/* <h1> who's anam? </h1> */}
       <p>
-        My name is Anam, I'm an engineer and love data. Data visualization is a strong tool that can tramslate numbers to stories. <a href="https://developers.google.com/chart/interactive/docs">Google charts</a> is offered in their developers library. Here's a little bit about me told through data... 
+        My name is Anam, I'm an engineer and love data. Data visualization is a strong tool that can translate numbers to stories. <a href="https://developers.google.com/chart/interactive/docs">Google charts</a> is offered in their developers library. Here's a little bit about me told through data... 
       </p>
 
       <div class="item">
