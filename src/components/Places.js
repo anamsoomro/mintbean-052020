@@ -9,36 +9,30 @@ function Places() {
       width={600}
       height={'600px'}
       chartType="Sankey"
-      loader={<div>Loading Chart</div>}
+      loader={<div>analyzing ... </div>}
       data={[
         ['From', 'To', 'Weight'],
-        ['United States', 'California', 1],
-
+        ['United States', 'California', 3],
         ['California', 'San Francisco', 1],
         ['California', 'San Diego', 1],
         ['California', 'L.A', 1],
 
-        ['United States', 'Texas', 1],
+        ['United States', 'Texas', 3],
         ['Texas', 'Houston', 1],
         ['Texas', 'Austin', 1],
         ['Texas', 'Dallas', 1],
 
-        ['Netherlands', 'North Holland', 1],
+        ['Netherlands', 'North Holland', 3],
         ['North Holland', 'Amsterdam', 1],
         ['North Holland', 'Arnhem', 1],
         ['North Holland', 'Rotterdam', 1],
 
         ['Switzerland', 'Basel', 1],
-        ['Switzerland', 'Grindelwald', 1],
+        ['Switzerland', 'Interlaken', 1],
 
 
         ['Belgium', 'Brussels', 1],
 
-        // ['Pakistan', 'Sindh', 1],
-
-        // ['Sindh', 'Karachi', 1],
-        // ['Sindh', 'Shikarpur', 1],
-        
 
 
         ['Turkey', 'Istanbul', 1],

@@ -9,7 +9,7 @@ function Food() {
       width={'100%'}
       height={'400px'}
       chartType="BarChart"
-      loader={<div>Loading Chart</div>}
+      loader={<div>analyzing ... </div>}
       data={[
         ['Food', 'Spice', {role: 'style'}],
         ['Tacos', 7, "#7ca0aa"],

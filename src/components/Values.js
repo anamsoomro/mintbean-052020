@@ -9,7 +9,7 @@ function Values() {
         width={'900px'}
         height={'600px'}
         chartType="BubbleChart"
-        loader={<div>Loading Chart</div>}
+        loader={<div>analyzing</div>}
         data={[
           ['ID', 'professionally', 'personally', 'weight'],
           [' ', 12, 12,  0],
@@ -17,8 +17,8 @@ function Values() {
           ['growth', 10, 10,  10],
           ['inclusion', 9, 6, 8],
           ['authenticity', 8, 10,  10],
-          ['dialouge', 7, 7,  6],
-          ['diversity', 10, 1.7, 8],
+          ['diversity', 7, 7,  6],
+          ['dialouge', 10, 1.7, 8],
           ['fun', 5, 5, 5],
           ['drama', 0, 0, 0.00001],
 
@@ -28,7 +28,8 @@ function Values() {
           hAxis: { title: 'personally' },
           vAxis: { title: 'professionally' },
           bubble: { textStyle: { fontSize: 11 } },
-          colorAxis: {colors: ['#547881', 'e1e6eb']}
+          colorAxis: {colors: ['#e1e6eb', '#547881']}
+          // colorAxis: {colors: ['#547881', 'e1e6eb']}
         }}
         rootProps={{ 'data-testid': '1' }}
       />

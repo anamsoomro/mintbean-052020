@@ -10,20 +10,20 @@ function Day() {
         width={'700px'}
         height={'400px'}
         chartType="PieChart"
-        // loader={<div>Loading Chart</div>}
+        loader={<div>analyzing...</div>}
         data={[
           ['Task', 'Hours per Day'],
-          ['toy with code', 6],
+          ['toy with code', 5],
           ['job hunt', 2],
-          ['harass my housemates', 3],
+          ['socialize', 3],
           ['sleep', 6],
           ['eat', 2],
-          ['watch videos of cute dogs', 1],
+          ['fresh air', 2],
         ]}
         options={{
           legend: 'none',
           pieSliceText: 'data',
-          // pieSliceText: 'label',
+          pieSliceText: 'label',
           title: '',
           pieStartAngle: 100,
           slices: {

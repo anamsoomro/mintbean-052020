@@ -8,7 +8,7 @@ function Timeline() {
       width={'100%'}
       height={'300px'}
       chartType="Timeline"
-      loader={<div>Loading Chart</div>}
+      loader={<div>analyzing ... </div>}
       data={[
         [
           { type: 'string', id: 'President' },
@@ -19,7 +19,7 @@ function Timeline() {
         ['architecture', new Date(2018, 3, 1), new Date(2019, 5, 1)],
         ['construction', new Date(2019, 3, 1), new Date(2020, 1, 1)],
         ['development', new Date(2020, 1, 1), new Date(2020, 5, 1)],
-        ['problem solver', new Date(2015, 5, 1), new Date(2020, 5, 1)],
+        ['problem solving', new Date(2015, 5, 1), new Date(2020, 5, 1)],
 
       ]}
       options={{

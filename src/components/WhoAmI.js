@@ -6,10 +6,12 @@ function WhoAmI() {
   return (
     <div style={{pointerEvents: "none",   display: "inline-block"}}>
     <Chart
-      width={'90vw'}
       height={'300px'}
+      width={'90vw'}
+
+
       chartType="TreeMap"
-      loader={<div>Loading Chart</div>}
+      loader={<div>analyzing... </div>}
       data={[
         [
           'Location',
