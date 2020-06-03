@@ -31,7 +31,7 @@ function Map() {
           legend: 'none',
           colorAxis: { colors: ['#547881', '#547881'] },
         }}
-        mapsApiKey="AIzaSyC8CNkudb3pPLmAFDvOyI--nEKqup1_jWY"
+        mapsApiKey={process.env.GOOGLE_API_KEY}
         rootProps={{ 'data-testid': '1' }}
       />
 
